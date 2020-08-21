@@ -4,6 +4,17 @@
 [![Coverage Status](https://coveralls.io/repos/github/blueanvil/ascii-tools/badge.svg?branch=master)](https://coveralls.io/github/blueanvil/ascii-tools?branch=master)
 
 A set of tools for logging and command line output.
+# Gradle
+
+```
+repositories {
+    maven { url "https://jitpack.io" }
+}
+
+dependencies {
+    compile 'com.github.blueanvil:ascii-tools:1.0'
+}
+```
 
 ## Bar chart
 A basic component for printing an ASCII bar chart. It's resonably configurable and well tested,

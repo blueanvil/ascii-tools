@@ -98,6 +98,14 @@ Mary                                 │▇▇▇▇▇▇▇▇▇▇ 100
 Alexander                            │▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 150
                 """)
     }
+
+    fun showCase() {
+        val data = mapOf(
+                "John" to 75,
+                "Mary" to 23,
+                "Alexander" to 34)
+        println(BarChart(data = data, minValue = -100, maxValue = 200))
+    }
 }
 
 private fun BarChart.assert(expected: String) {

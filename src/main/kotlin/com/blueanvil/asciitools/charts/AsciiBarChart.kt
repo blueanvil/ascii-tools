@@ -12,7 +12,7 @@ class AsciiBarChart(val data: Map<String, Number>,
                     val maxValue: Number? = null,
                     val barChar: Char = '▇',
                     val showValueLabels: Boolean = true,
-                    val showRangeMarkers: Boolean = true) {
+                    val showRangeMarkers: Boolean = false) {
 
 
     override fun toString(): String {

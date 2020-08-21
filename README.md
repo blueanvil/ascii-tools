@@ -12,13 +12,16 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.blueanvil:ascii-tools:1.1'
+    compile 'com.github.blueanvil:ascii-tools:1.2'
 }
 ```
 
 ## Bar chart
 A basic component for printing an ASCII bar chart. It's resonably configurable and well tested,
-but probably doesn't cover many edge cases. It was designed for relatively simple scenarios.  
+but probably doesn't cover many edge cases. It was designed for relatively simple scenarios.
+
+See [AsciiBarChartTest](https://github.com/blueanvil/ascii-tools/blob/master/src/test/kotlin/com/blueanvil/asciitools/charts/AsciiBarChartTest.kt) for more examples.
+  
 ```kotlin
 val data = mapOf(
                 "John" to 75,

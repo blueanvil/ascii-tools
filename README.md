@@ -1,4 +1,8 @@
 # ASCII Tools
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Build Status](https://travis-ci.com/blueanvil/ascii-tools.svg?branch=master)](https://travis-ci.com/blueanvil/ascii-tools)
+[![Coverage Status](https://coveralls.io/repos/github/blueanvil/ascii-tools/badge.svg?branch=master)](https://coveralls.io/github/blueanvil/ascii-tools?branch=master)
+
 A set of tools for logging and command line output.
 
 ## Bar chart
@@ -16,3 +20,6 @@ John                         │▇▇▇▇▇▇▇▇▇▇ 75
 Mary                         │▇▇▇ 23
 Alexander                    │▇▇▇▇ 34
 ```
+
+# License Information
+The code is licensed under [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).

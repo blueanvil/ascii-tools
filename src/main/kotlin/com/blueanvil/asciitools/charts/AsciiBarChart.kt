@@ -6,13 +6,13 @@ import kotlin.math.absoluteValue
 /**
  * @author Cosmin Marginean
  */
-class BarChart(val data: Map<String, Number>,
-               val width: Int = 40,
-               val minValue: Number? = null,
-               val maxValue: Number? = null,
-               val barChar: Char = '▇',
-               val showValueLabels: Boolean = true,
-               val showRangeMarkers: Boolean = true) {
+class AsciiBarChart(val data: Map<String, Number>,
+                    val width: Int = 40,
+                    val minValue: Number? = null,
+                    val maxValue: Number? = null,
+                    val barChar: Char = '▇',
+                    val showValueLabels: Boolean = true,
+                    val showRangeMarkers: Boolean = true) {
 
 
     override fun toString(): String {

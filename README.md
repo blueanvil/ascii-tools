@@ -12,7 +12,7 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.blueanvil:ascii-tools:1.0'
+    compile 'com.github.blueanvil:ascii-tools:1.1'
 }
 ```
 
@@ -24,7 +24,7 @@ val data = mapOf(
                 "John" to 75,
                 "Mary" to 23,
                 "Alexander" to 34)
-println(BarChart(data = data, minValue = -100, maxValue = 200))
+println(AsciiBarChart(data = data, minValue = -100, maxValue = 200))
 ```
 will print
 ```text
